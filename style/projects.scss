@@ -1,0 +1,47 @@
+.container_project1 {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 113px;
+}
+.main_info-projects {
+    max-width: 635px;
+    width: 100%;
+    margin-right: 140px;
+   
+}
+.container_small-table {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    max-width: 335px;
+    width: 100%;
+    row-gap: 18px;
+    
+}
+.firstcolumn {
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 0.5;
+    border-bottom: 1px solid #979797;;
+}
+.secondcolumn {
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: 1px solid #979797;;
+}
+
+.fullwidth-picture {
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 61px;
+    margin-bottom: 45px;
+}
+.pictures-project {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr;
+    gap: 30px;
+    margin-top: 45px;
+}

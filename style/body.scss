@@ -1,0 +1,52 @@
+$base-font: 'Mulish', sans-serif;
+$base-color: #111;
+
+body {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+    font-family: $base-font;
+}
+p {
+    opacity: 0.6;
+    line-height: 26px; /* 162.5% */
+}
+
+h1 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px; /* 150% */
+}
+h2 {
+    color: $base-color;
+    font-family: $base-font;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px; /* 135.714% */
+}
+h3 {
+    color: #4A4FF2;
+    font-family: $base-font;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.423px;
+}
+.text {
+    color: $base-color;
+    font-family: $base-font;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+a {
+    text-decoration: none;
+
+    &:hover {
+        opacity: 0.5;
+    }
+}

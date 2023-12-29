@@ -1,0 +1,63 @@
+/* Grid of pictures on main */
+
+.container_main_grid {
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(32, 1fr);
+    grid-gap: 20px;
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 144px;
+}
+.grid_element {
+    overflow: hidden;
+    position: relative;
+}
+.first {
+    grid-row: 1/8;
+    grid-column: 1/4;
+}
+.second {
+    grid-row: 1/7;
+    grid-column: 4/7;
+}
+.third {
+    grid-row: 1/11;
+    grid-column: 7/10;
+}
+.fourth {
+    grid-row: 8/16;
+    grid-column: 1/4;
+}
+.fifth {
+    grid-row: 7/14;
+    grid-column: 4/7;
+}
+.sixth {
+    grid-row: 11/18;
+    grid-column: 7/10;
+}
+.seventh {
+    grid-row: 16/24;
+    grid-column: 1/4;
+}
+.eight {
+    grid-row: 14/23;
+    grid-column: 4/7;
+}
+.ninth {
+    grid-row: 18/27;
+    grid-column: 7/10;
+}
+.tenth {
+    grid-row: 24/33;
+    grid-column: 1/4;
+}
+.eleventh {
+    grid-row: 23/33;
+    grid-column: 4/7;
+}
+.twelwth {
+    grid-row: 27/33;
+    grid-column: 7/10;
+}

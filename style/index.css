@@ -8,7 +8,7 @@
     justify-content:space-between;
     max-width:1110px;width:100%
 }
-.container_head ul{
+.container_main_1{
     list-style:none;
     display:flex;
     padding:5px;
@@ -20,7 +20,7 @@
     line-height:normal;
     letter-spacing:-0.346px
 }
-.container_head li{
+.container_main_1{
     padding:29px
 }
 .navBar{

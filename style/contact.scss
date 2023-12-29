@@ -1,0 +1,54 @@
+.container_contact {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 110px;
+    justify-content: space-between;
+    align-content: flex-start;
+}
+.contact_info {
+    max-width: 445px;
+    width: 100%;
+    gap: 22px;
+}
+.container_form {
+    display: flex;
+    flex-direction: column;
+    gap: 46px;
+    max-width: 475px;
+    width: 100%;
+   
+}
+.form {
+    
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 15px;
+   
+}
+.button {
+    width: 125px;
+    height: 50px;
+    flex-shrink: 0;
+    background-color: #4A4FF2;
+    margin-top: 52px;
+    color: white;
+    border: none;
+    color: #FFF;
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+}
+.map {
+    max-width: 1110px;
+    width: 100%;
+    margin-top: 120px;
+}
+.input-field {
+    border: none;
+    border-bottom: 1px solid #979797;;
+}
+label {
+    font-weight: 700;
+    opacity: 0.6;
+}

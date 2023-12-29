@@ -1,0 +1,37 @@
+.container_head {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1110px;
+    width: 100%;
+}
+
+.container_head ul {
+    list-style: none;
+    display: flex;
+    padding: 5px;
+    color: #111;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.346px;
+}
+    
+.container_head li {
+    padding: 29px;
+}
+.navBar {
+    display: flex;
+    align-items: center;
+}
+.nav1 {
+    display: flex;
+}
+.navBar a {
+    text-decoration: none;
+    color: #111;
+}

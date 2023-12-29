@@ -1,0 +1,142 @@
+.container_main_1 {
+    display: flex;
+}
+.main_title {
+    max-width: 635px;
+    width: 100%;
+}
+.progress {
+    align-self:flex-end;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+    opacity: 0.6;
+    margin-left: 190px;
+}
+
+
+/* Container below pictures */
+
+.container_lovework {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 91px;
+}
+.container_lovework li {
+   
+    list-style: none;
+    font-size: 18px;
+    font-weight: 400;
+    opacity: 0.6;
+    padding: 10px;
+}
+.hardwork {
+    
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px; /* 135.714% */
+}
+.nav2 {
+    grid-column: 2/3;
+}
+.nav3 {
+    grid-column: 3/4;
+}
+
+/* Table on main*/
+
+.container_table {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin-top: 100px;
+    gap: 120px;
+    
+}
+.awards {
+    grid-row: 1/3;
+    grid-column: 1/2;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 22px;
+    font-weight: 700;
+}
+.site {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    font-size: 18px;
+    font-weight: 700;
+}
+.genesis {
+    grid-row: 1/3;
+    grid-column: 3/4;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.6;
+}
+.year {
+    grid-row: 1/3;
+    grid-column: 4/5;
+    text-align: right;
+    opacity: 0.6;
+}
+.navigation {
+    grid-row: 1/3;
+    grid-column: 5/6;
+    font-size: 18px;
+    font-weight: 700;
+}
+.genesis2 {
+    grid-row: 3/5;
+    grid-column: 1/2;
+    line-height: 26px; /* 162.5% */
+    opacity: 0.6;
+}
+.year2 {
+    grid-row: 3/5;
+    grid-column: 2/3;
+}
+.line {
+    grid-row: 4/5;
+    grid-column: 1/6;
+    border-bottom: 1px solid grey;
+}
+.design {
+    grid-row: 5/7;
+    grid-column: 1/2;
+    font-size: 22px;
+    font-weight: 700;
+}
+.site2 {
+    grid-row: 5/7;
+    grid-column: 2/3;
+    font-size: 18px;
+    font-weight: 700;
+    align: right;
+}
+.genesis3 {
+    grid-row: 5/7;
+    grid-column: 3/4;
+    opacity: 0.6;
+}
+.year3 {
+    grid-row: 5/7;
+    grid-column: 4/5;
+}
+.navigation2 {
+    grid-row: 7/9;
+    grid-column: 1/2;
+    font-size: 18px;
+    font-weight: 700;
+}
+.genesis4 {
+    grid-row: 7/9;
+    grid-column: 2/3;
+    opacity: 0.6;
+}
+.year4 {
+    grid-row: 7/9;
+    grid-column: 3/4;
+}
